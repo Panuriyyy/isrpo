@@ -17,8 +17,3 @@ class UserResponse(BaseModel):
     father_name: str | None
     email: str
     university: str
-
-
-class UserPhone(BaseModel):
-    number: int
-    password: str
