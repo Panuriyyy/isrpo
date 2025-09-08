@@ -10,6 +10,10 @@ class UserCreate(BaseModel):
     password: str
 
 
+class UserLogin(BaseModel):
+    email: EmailStr
+    password: str
+
 
 class UserResponse(BaseModel):
     last_name: str
@@ -17,3 +21,8 @@ class UserResponse(BaseModel):
     father_name: str | None
     email: str
     university: str
+
+
+class UserPhone(BaseModel):
+    number: int
+    password: str
