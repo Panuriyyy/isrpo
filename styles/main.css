@@ -1,0 +1,248 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    transition: .5s ease-in-out;
+}
+
+body {
+    cursor: url('../media/logo.png'), auto;
+    font-family: Muller;
+    color: #71553F;
+    font-size: medium;
+    width: 390px;
+    height: 1171px;
+    background-image: url(../media/main/background\ main\ page.png);
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgba(239, 235, 232, 0.9);
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.description {
+    background-image: url(../media/main/Rectangle\ for\ info.png);
+    background-size: 344px 218px;
+    background-repeat: no-repeat;
+    align-content: center;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 27px;
+    padding-right: 65px;
+    padding-top: 27px;
+    padding-bottom: 20px;
+}
+
+.promocode {
+    font-size: 32px;
+    background-image: url(../media/main/Rectangle\ for\ promocode.png);
+    background-repeat: no-repeat;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+
+h1 {
+    font-family: Airfool;
+    font-weight: normal;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.way1 {
+    background-image: url(../media/main/Rectangle\ for\ way.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: left;
+    color: inherit;
+    font: inherit;
+}
+
+.photo1 {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 23px;
+}
+
+.text_way1 {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.way2 {
+    background-image: url(../media/main/Rectangle\ for\ way.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: left;
+    color: inherit;
+    font: inherit;
+}
+
+.photo2 {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 23px;
+}
+
+.text_way2 {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.way3 {
+    background-image: url(../media/main/Rectangle\ for\ way.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: left;
+    color: inherit;
+    font: inherit;
+}
+
+.photo3 {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 23px;
+}
+
+.text_way3 {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.way4 {
+    background-image: url(../media/main/Rectangle\ for\ way.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: left;
+    color: inherit;
+    font: inherit;
+}
+
+.photo4 {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 23px;
+}
+
+.text_way4 {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.way5 {
+    background-image: url(../media/main/Rectangle\ for\ way.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: left;
+    color: inherit;
+    font: inherit;
+}
+
+.photo5 {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 23px;
+}
+
+.text_way5 {
+    margin-right: 40px;
+    display: inline-block;
+}
+
+h5 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: Muller;
+    src: url(ofont.ru_Muller.ttf);
+}
+
+@font-face {
+    font-family: 'Airfool';
+    src: url(Airfool.otf);
+}

@@ -1,0 +1,68 @@
+body {
+    cursor: url('../media/logo.png'), auto;
+    font-family: Muller;
+    color: #71553F;
+    font-size: medium;
+    width: 390px;
+    height: 953px;
+    background-image: url(../media/main/background\ main\ page.png);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: Airfool;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.block {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.block div {
+    display: block;
+    /* Каждый div с новой строки */
+    margin-bottom: 12px;
+    /* Отступ между пунктами */
+}
+
+.block label {
+    display: inline-flex;
+    /* Чекбокс и текст в одной строке */
+    align-items: center;
+    /* Вертикальное выравнивание */
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1.4;
+}
+
+.block input[type="checkbox"] {
+    margin-right: 12px;
+    width: 18px;
+    height: 18px;
+    accent-color: #71553F;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+@font-face {
+    font-family: Muller;
+    src: url(ofont.ru_Muller.ttf);
+}
+
+@font-face {
+    font-family: 'Airfool';
+    src: url(Airfool.otf);
+}

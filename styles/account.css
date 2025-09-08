@@ -1,0 +1,77 @@
+body {
+    font-family: Muller;
+    color: #71553F;
+    font-size: medium;
+    width: 390px;
+    height: 844px;
+    background-image: url(../media/main/background\ main\ page.png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: Airfool;
+    margin-top: 40px;
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+a {
+    color: inherit;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 344px;
+    height: 135px;
+    background-image: url(../media/account/Rectangle\ for\ person.png);
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bro {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.info {
+    padding-top: 15px;
+}
+
+.progress {
+    margin-top: 40px;
+}
+
+.btn {
+    background-image: url(../media/account/Rectangle\ for\ start.png);
+    background-repeat: no-repeat;
+    font-family: inherit;
+    font-size: 20px;
+    width: 344px;
+    height: 73px;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+@font-face {
+    font-family: Muller;
+    src: url(ofont.ru_Muller.ttf);
+}
+
+@font-face {
+    font-family: 'Airfool';
+    src: url(Airfool.otf);
+}
