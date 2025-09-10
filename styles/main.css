@@ -16,15 +16,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.logo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 10px 20px;
-    box-sizing: border-box;
-}
-
 .container {
     max-width: 100%;
     padding: 20px;
